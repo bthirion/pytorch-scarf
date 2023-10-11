@@ -15,6 +15,6 @@ setup(
         "self-supervised learning",
     ],
     python_requires=">=3.7",
-    install_requires=["torch==1.12", "tqdm==4.64"],
+    install_requires=["torch >= 1.12", "tqdm >= 4.64"],
     tests_require=["pytest"],
 )
